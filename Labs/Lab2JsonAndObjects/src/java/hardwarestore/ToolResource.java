@@ -39,7 +39,7 @@ public class ToolResource {
     @Produces(MediaType.APPLICATION_JSON)
     public Tool getJson() {
         //TODO return proper representation object
-        return new Tool(1, "hummer", 12f, 5, true);
+        return new Tool(1, "hummer", 12.15f, 5, true);
     }
 
     /**
